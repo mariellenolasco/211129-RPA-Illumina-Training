@@ -3506,9 +3506,9 @@
     "restore": {
       "projectUniqueName": "Hello World",
       "projectName": "Hello World",
-      "projectPath": "C:\\Revature\\Batches\\211129-Illumina-UiPath\\Hello World\\.local",
+      "projectPath": "C:\\Revature\\Batches\\211129-Illumina-UiPath\\211129-RPA-Illumina-Training\\Hello World\\.local",
       "packagesPath": "C:\\Users\\MarielleNolasco\\.nuget\\packages\\",
-      "outputPath": "C:\\Revature\\Batches\\211129-Illumina-UiPath\\Hello World\\.local"
+      "outputPath": "C:\\Revature\\Batches\\211129-Illumina-UiPath\\211129-RPA-Illumina-Training\\Hello World\\.local"
     },
     "frameworks": {
       "net461": {
