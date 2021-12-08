@@ -73,7 +73,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:GetOutlookMailMessages Account="{x:Null}" FilterByMessageIds="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Get Outlook Mail Messages" Filter="[from]='jeff.vandewege@revature.com' and [subject]='RE: Unable to send welcome emails'" GetAttachements="False" sap:VirtualizedContainerService.HintSize="641.333333333333,22" sap2010:WorkflowViewState.IdRef="GetOutlookMailMessages_1" MailFolder="Inbox" MarkAsRead="False" Messages="[messageFromOutlook]" OnlyUnreadMessages="False" OrderByDate="NewestFirst" Top="30" />
+    <ui:GetOutlookMailMessages Account="{x:Null}" FilterByMessageIds="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Get Outlook Mail Messages" Filter="[from]='jeff.vandewege@revature.com'" GetAttachements="False" sap:VirtualizedContainerService.HintSize="641.333333333333,22" sap2010:WorkflowViewState.IdRef="GetOutlookMailMessages_1" MailFolder="Inbox" MarkAsRead="False" Messages="[messageFromOutlook]" OnlyUnreadMessages="False" OrderByDate="NewestFirst" Top="30" />
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="641.333333333333,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="[messageFromOutlook.Count.ToString]" />
     <ui:ForEach x:TypeArguments="snm:MailMessage" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="641.333333333333,844" sap2010:WorkflowViewState.IdRef="ForEach`1_3" Values="[messageFromOutlook]">
       <ui:ForEach.Body>
